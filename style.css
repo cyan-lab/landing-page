@@ -87,7 +87,6 @@ a {
     text-align: center;
     padding-bottom: 50px;
 
-    margin: 0 auto;
     width: 100%;
 }
 
@@ -108,7 +107,7 @@ a {
 
     margin: 0 auto;
     width: 100%;
-    max-width: 1080px;
+    max-width: 960px;
 }
 
 .feature {
@@ -122,4 +121,32 @@ a {
     height: 200px;
     border: 2px solid #3882f6;
     border-radius: 25px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    width: 100%;
+    padding:40px 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+.quote-p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quoter-p {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-bottom: 20px;
 }
