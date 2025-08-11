@@ -168,7 +168,8 @@ a {
 
     background-color: #3882f6;
     border-radius: 15px;
-    padding: 25px;
+    box-sizing: border-box;
+    padding: 25px 100px;
 }
 
 .CTA-text {
@@ -185,4 +186,19 @@ a {
     border-radius: 5px;
     background-color: #3882f6;
     padding: 10px 25px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+    padding: 10px 0;
+}
+
+.footer-p {
+    color:#E5E7EB;
 }
